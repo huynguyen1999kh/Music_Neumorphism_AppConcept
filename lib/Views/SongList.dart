@@ -1,3 +1,4 @@
+import 'package:flute_music_player/flute_music_player.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_music_neumorphism/AppVariables/AppColor.dart';
 import 'package:flutter_music_neumorphism/AppVariables/AppData.dart';
@@ -16,6 +17,12 @@ class SongList extends StatefulWidget {
 class _SongListState extends State<SongList> {
   double sliderValue = 0;
   String playingSong;
+  MusicFinder audioPlayer;
+
+  @override
+  void initState() {
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

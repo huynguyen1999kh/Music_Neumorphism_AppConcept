@@ -18,6 +18,11 @@ environment:
 
 dependencies:
   flutter_screenutil: ^1.0.2
+  flute_music_player: ^0.0.6
+  permission_handler: ^4.2.0+hotfix.3
+  shared_preferences: ^0.5.6+1
+  provider: ^4.0.3
+  rxdart: ^0.23.1
   flutter:
     sdk: flutter
 
@@ -70,3 +75,6 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+permission:
+    git:
+      url: https://github.com/devadrianapostol/permission

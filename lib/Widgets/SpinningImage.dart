@@ -22,7 +22,6 @@ class _SpinningImageState extends State<SpinningImage>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller =
         AnimationController(vsync: this, duration: Duration(seconds: 300));

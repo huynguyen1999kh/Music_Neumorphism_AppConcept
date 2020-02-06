@@ -29,6 +29,7 @@ class _ChoosenSongWidgetState extends State<ChoosenSongWidget> {
         widget.onPressPlay(widget.song);
         navigatorKey.currentState
             .pushNamed(Routes.SongDetail, arguments: {'song': widget.song});
+        //Navigator.pushNamed(context, Routes.SongDetail, arguments: {'song': widget.song});
       },
       child: Container(
         padding: EdgeInsets.symmetric(
